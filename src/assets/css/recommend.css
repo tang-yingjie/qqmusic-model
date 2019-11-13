@@ -1,0 +1,116 @@
+.recommend{
+  width: 7.5rem
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+.recommend .banner {
+margin: 0 auto 14px;
+padding: 0;
+width: 7.5rem;
+height: 1.5rem;
+}
+
+.recommend .banner img {
+width: 7.5rem;
+height: 1.5rem;
+}
+.recommend .banner span.swiper-pagination-bullet-active {
+background: #ffffff;
+}
+.recommend .banner .swiper-pagination-bullet {
+/* background: green; */
+background: #555;
+opacity: 1;
+}
+.recommend .bc {
+width: 7.2rem;
+margin:0 .1rem;
+background: #eeeaea;
+}
+.recommend .bc h3 {
+height: 0.4rem;
+line-height: 0.4rem;
+font-size: .16rem;
+margin-bottom: 11px;
+font-weight: 400;
+}
+.recommend .bc ul {
+display: flex;
+}
+.recommend .bc ul li {
+flex: 1;
+margin-right: 0.1rem;
+text-align: center;
+background: #fff;
+}
+.recommend .bc ul li div {
+width: 100%;
+position: relative;
+}
+.recommend .bc ul li div img {
+width: 100%;
+}
+.recommend .bc ul li div span {
+position: absolute;
+bottom: 3px;
+right: 0;
+width: .24rem;
+height: .24rem;
+background: url('../images/list_sprite.png') no-repeat;
+background-size: .24 .6rem;
+z-index: 1;
+}
+.recommend .bc ul li p {
+height: 0.6rem;
+line-height: 0.6rem;
+text-align: left;
+font-size: 14px;
+text-indent: 5px;
+width: 1.5rem;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.recommend .footer {
+margin: 0 auto;
+padding: 15px 0 1rem;
+text-align: center;
+}
+.recommend .footer a {
+width: 100%;
+text-align: center;
+font-size: 14px;
+margin-bottom: 16px;
+display: block;
+}
+.recommend .footer img {
+width: .82rem;
+height: .24rem;
+margin: 0 auto 7px;
+}
+.recommend .footer p {
+width: 100%;
+font-size: 10px;
+}

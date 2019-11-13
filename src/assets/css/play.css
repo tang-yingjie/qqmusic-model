@@ -1,0 +1,51 @@
+.play{
+    background: skyblue;
+    padding: 0.1rem;
+    position: relative;
+  }
+
+  ul li{
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 10px;
+    background: white;
+    font-size: 16px;
+    display: flex;
+  }
+  ul .title{
+      background: skyblue;
+      text-align: center;
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 5px;
+      color: white
+  }
+  ul >span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/back.png) no-repeat;
+    background-size: 30px 30px;
+    position: absolute;
+    top:15px;
+    left: 20px;
+
+  }
+  ul li span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: url(../images/list_sprite.png) no-repeat;
+    background-size: 30px 80px;
+  }
+  ul li p{
+    flex: 1;
+    text-indent: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }

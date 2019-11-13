@@ -1,0 +1,63 @@
+
+.search {
+    background: #fff;
+  }
+  .search .searchBox {
+    display: flex;
+    background: #eeeaea;
+    padding: 0.2rem;
+  }
+  .search .searchBox .inp {
+    border-radius: 3px;
+    background: #fff;
+    height: 20px;
+    padding: 8px 12px 8px 35px;
+    position: relative;
+    flex: 1;
+  }
+  .search .searchBox .inp span {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -999px;
+    vertical-align: top;
+  }
+  .search .searchBox .inp input {
+    vertical-align: top;
+  }
+  .search .searchBox div {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+  }
+  .search .result {
+    width: 100%;
+    padding-bottom: 300px;
+  }
+  .search .main{
+    margin-left: 3px
+  }
+  .search .result h3 {
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+  }
+  .search .result .main div{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #333;
+    margin: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  .search .result .main div.on {
+    border: 1px solid #fc4524;
+    color: #fc4524;
+  }

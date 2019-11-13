@@ -1,0 +1,42 @@
+.ranking{
+    margin: 10px;
+    padding-bottom: 55px;
+}
+  .ranking ul li {
+    height: 100px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    background: #fff;
+  }
+  .ranking ul li a {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+  .ranking ul li a img {
+    width: 100px;
+    height: 100px;
+  }
+  .ranking ul li div {
+    flex: 1;
+    margin-left: 7px;
+    padding-top: 0.1rem;
+  }
+  .ranking ul li div dt {
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 24px;
+  }
+  .ranking ul li div dd {
+    width: 4rem /* 300/75 */;
+    font-size:.19rem;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }

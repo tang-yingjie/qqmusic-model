@@ -1,0 +1,69 @@
+.detail{
+    background: black;
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.playAarea{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 7.5rem;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+audio{
+    width: 7.5rem
+}
+.album{
+    width:3rem;
+    height: 5rem;
+    margin: 0 auto ;
+    padding-top: 1rem
+}
+img{
+    /* width: 100px; */
+    width: 100%;
+    height: 3rem;
+    border-radius:50%;
+    transform: rotate(360deg);
+    transition: all ;
+    animation: roll 4s  linear infinite;
+
+}
+@keyframes roll{
+    0%{transform: rotate(0deg)};
+    100%{transform: rotate(360deg)}
+}
+span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/back.png) no-repeat;
+    background-size: 30px 30px;
+    position: absolute;
+    top:15px;
+    left: 20px;
+    z-index: 5;
+}
+.lrc{
+    height: 6rem;
+    width: 100%;
+    color: #666;
+    font-size: 14px;
+    padding: .1rem;
+    overflow: hidden;
+    position: relative;
+}
+.lrcmain{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+p{
+    line-height: 20px;
+    text-align: center
+}
+
